@@ -78,8 +78,9 @@ app.use('/static', express.static(__dirname + "/static/"));
 app.get('/chat', function(req, res){
     if(req.isAuthenticated()) {
         res.sendFile(__dirname + "/pages/chat.html");
+    }else {
+        res.redirect('/');
     }
-    res.redirect('/');
 });
 
 
