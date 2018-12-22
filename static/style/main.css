@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    margin: 100px auto;
+    display: block;
+}
+
+form{
+    width: 1280px;
+    display: block;
+    margin: 20px auto;
+}
